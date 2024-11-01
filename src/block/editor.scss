@@ -1,0 +1,19 @@
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+
+ .cbg-block-container.no-line-numbers {
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+svg.dashicon.dashicons-editor-code {
+  color: #fff;
+  background: #174e86;
+  width: 100px;
+  height: 100px;
+  padding: 3px;
+}

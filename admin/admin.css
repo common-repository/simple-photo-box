@@ -1,0 +1,142 @@
+/**
+ * Admin CSS 
+ */
+
+ #ptsp_metabox .postbox-header, #ptsp_shortcode .postbox-header {
+    display: none;
+}
+
+#ptsp_metabox .csf-field.csf-field-tabbed {
+	padding: 0; 
+}
+
+#ptsp_metabox .csf-field .csf-text-subtitle {
+	font-style: italic; 
+}
+
+#ptsp_metabox .csf-tabbed-nav {
+	margin-bottom: 20px;
+	border-top: 2px solid #169399 !important;
+}
+
+#ptsp_metabox .csf-field-tabbed .csf-tabbed-nav a {
+	border: none;
+}
+
+#ptsp_metabox .csf-field-tabbed .csf-tabbed-section {
+	box-shadow: none;
+	border: none;
+}
+
+#ptsp_metabox .csf-tabbed-nav a {
+    margin-right: 0;
+    background: #169399;
+    margin-top: -1px;
+    text-transform: uppercase;
+    color: #fff;
+    border-right: 1px solid #ffffff !important;
+    padding: 10px 30px;
+}
+
+#ptsp_metabox .csf-tabbed-nav a.csf-tabbed-active {
+    background: #fff;
+    color: #169399;
+}
+
+.csf-field-tabbed .csf-tabbed-section>.csf-field {
+    padding: 20px !important;
+}
+
+.hide_placeholder .csf--input input, .csf-field-spinner input, .hide_placeholder_space .csf--input input {
+    width: 75px !important;
+}
+
+/**
+ * Help Page 
+ */
+.ptsp_header {
+    background: #43cea2;  
+    background: -webkit-linear-gradient(to right, #185a9d, #43cea2);  
+    background: linear-gradient(to right, #185a9d, #43cea2);
+    padding: 150px 0px;
+    text-align: center;
+}
+
+.ptsp_admin_page {
+    padding-left:  !important;
+    margin-left: -20px;
+}
+
+.ptsp_header a {
+    display: inline-block;
+    padding: 15px 30px;
+    text-decoration: none !important;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(255,255,255,.25);
+    margin: 0 10px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.ptsp_header a:first-child {
+    background: #ee9ca7;
+    background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);
+    background: linear-gradient(to right, #ffdde1, #ee9ca7);
+    color: #000;
+}
+
+.ptsp_header a:last-child {
+    background: #FEAC5E; 
+    background: -webkit-linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E); 
+    background: #D38312; 
+    background: -webkit-linear-gradient(to right, #A83279, #D38312); 
+    background: linear-gradient(to right, #A83279, #D38312); 
+}
+
+.ptsp_support_blocks {
+    margin: 50px 30px;
+    display: flex;
+}
+
+.single-block {
+    width: 100%;
+    margin: 0 30px;
+    background: #fff;
+    padding: 50px 0;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.icon {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    box-shadow: 0 0 5px rgba(0,0,0,.1);
+    border: 1px solid rgba(0,0,0,.1);
+    border-radius: 50%;
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: #079a51;
+}
+
+.help_link {
+    font-size: 16px;
+}
+
+.help_link span {
+    display: block;
+}
+
+.help_link a {
+    display: inline-block;
+    text-decoration: none;
+    background: #1a6ea3;
+    color: #fff;
+    padding: 10px 15px;
+    margin-top: 15px;
+    border-radius: 3px;
+}
+
